@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8"?>
+<life>
+    <world>
+        <cells>n</cells> // Dimension of the square "world"
+        <species>m</species> // Number of distinct species [1, 5]
+        <iterations>i</iterations> // Number of iterations to be calculated
+    </world>
+<organisms>
+    <organism>
+        <x_pos>x</x_pos> // x position
+        <y_pos>y</y_pos> // y position
+        <species>t</species> // Species type [0, m], 0 - none, empty element
+    </organism>
+</organisms>
+</life>
